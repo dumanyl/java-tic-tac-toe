@@ -1,12 +1,20 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all they need to know. The comments should usually include at least:
-------------------------------------------------------------------------
+# Java Tic Tac Toe Game
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+A GUI-based Tic Tac Toe game built in Java using Swing, featuring a scoreboard and sound effects.  
+Designed to demonstrate object-oriented programming, event handling, and basic game logic.
+
+---
+
+## Features
+- Interactive 3x3 Tic Tac Toe board with graphical interface  
+- Sound feedback on player moves and game events  
+- Scoreboard tracking wins, losses, and draws  
+- Modular class design (`Game`, `GUI`, `Scoreboard`, `SoundManager`)
+
+---
+
+## How to Run
+Compile and run with:
+```bash
+javac *.java
+java TicTacToeGame
