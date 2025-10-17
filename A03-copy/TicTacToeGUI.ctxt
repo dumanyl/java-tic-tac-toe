@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TicTacToeGUI
+comment0.text=\r\n\ The\ main\ GUI\ class\ that\ displays\ the\ tic-tac-toe\ board,\ \r\n\ scoreboard,\ and\ status.\r\n\ It\ interacts\ with\ the\ game\ model\ (TicTacToeGame),\ \r\n\ Scoreboard,\ and\ SoundManager.\r\n\ \r\n\ @author\ Dumany\ Lombe\r\n\ @version\ Student\ Number\:\ 101316658\r\n\ \r\n
+comment1.params=
+comment1.target=TicTacToeGUI()
+comment1.text=\r\n\ Constructs\ a\ new\ GUI\ for\ playing\ Tic\ Tac\ Toe,\ prompting\ the\ user\ for\r\n\ Player\ X\ and\ Player\ O\ names,\ setting\ the\ initial\ player,\ initializing\r\n\ the\ game\ model\ and\ related\ managers\ (scoreboard,\ sound),\ and\ laying\ out\r\n\ the\ 3x3\ button\ board.\ This\ constructor\ also\ creates\ a\ menu\ bar\ with\r\n\ "New"\ and\ "Quit"\ options,\ and\ sets\ up\ the\ primary\ labels\ for\ score\r\n\ tracking\ and\ status\ (i.e.,\ whose\ turn\ it\ is).\r\n\ \r\n\ Once\ constructed,\ the\ GUI\ frame\ is\ fully\ visible\ and\ ready\ for\ play.\r\n\ \r\n
+comment2.params=playerSymbol
+comment2.target=java.lang.String\ getPlayerName(java.lang.String)
+comment2.text=\r\n\ Returns\ the\ display\ name\ for\ the\ given\ player\ symbol.\r\n
+comment3.params=
+comment3.target=void\ updateScoreboard()
+comment3.text=\r\n\ Updates\ the\ scoreboard\ label.\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ Handles\ the\ button\ click\ events\ on\ the\ Tic-Tac-Toe\ board.\ If\ the\ game\ is\ still\ in\ progress,\r\n\ identifies\ the\ clicked\ button,\ plays\ a\ click\ sound,\ and\ attempts\ to\ make\ a\ move\ in\ the\r\n\ underlying\ game\ model.\ If\ a\ winning\ or\ tie\ condition\ is\ detected,\ it\ updates\ the\ status\ label,\r\n\ records\ the\ result\ in\ the\ scoreboard,\ highlights\ the\ winning\ combination\ (if\ any),\ and\ disables\r\n\ further\ moves.\ If\ the\ game\ continues,\ it\ switches\ to\ the\ next\ player\ and\ updates\ the\ status\r\n\ accordingly.\r\n\r\n\ @param\ e\ the\ ActionEvent\ triggered\ when\ the\ user\ clicks\ one\ of\ the\ board\ buttons\r\n
+comment5.params=
+comment5.target=void\ disableAllButtons()
+comment5.text=\r\n\ Disables\ all\ board\ buttons.\r\n
+comment6.params=
+comment6.target=void\ resetGame()
+comment6.text=\r\n\ Resets\ the\ game\ board\ for\ a\ new\ round.\r\n
+numComments=7

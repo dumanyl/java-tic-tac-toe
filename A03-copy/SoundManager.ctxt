@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SoundManager
+comment0.text=\r\n\ This\ class\ loads\ and\ plays\ sound\ effects.\r\n\ \r\n\ @author\ Dumany\ Lombe\r\n\ @version\ Student\ Number\:\ 101316658\r\n
+comment1.params=
+comment1.target=SoundManager()
+comment1.text=\r\n\ Constructs\ a\ new\ SoundManager\ by\ attempting\ to\ load\ the\ "click.wav"\ and\ "celebration.wav"\r\n\ sound\ files\ from\ the\ current\ classpath.\ If\ successfully\ located,\ these\ sounds\ are\ stored\r\n\ as\ AudioClips\ for\ later\ playback.\ If\ a\ file\ is\ not\ found,\ the\ corresponding\ AudioClip\r\n\ field\ remains\ null.\r\n
+comment2.params=
+comment2.target=void\ playClick()
+comment2.text=\r\n\ Plays\ the\ click\ sound.\r\n
+comment3.params=
+comment3.target=void\ playCelebration()
+comment3.text=\r\n\ Plays\ the\ celebration\ sound.\r\n
+numComments=4

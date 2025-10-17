@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Scoreboard
+comment0.text=\r\n\ This\ class\ keeps\ track\ of\ wins,\ draws,\ and\ total\ games\ played.\r\n\ \r\n\ @author\ Dumany\ Lombe\r\n\ @version\ Student\ Number\:\ 101316658\r\n\ \r\n
+comment1.params=
+comment1.target=Scoreboard()
+comment1.text=\r\n\ Constructs\ a\ new\ Scoreboard,\ initializing\ the\ counts\ of\ X\ wins,\ O\ wins,\ draws,\ \r\n\ and\ total\ games\ played\ to\ zero.\ This\ provides\ a\ clean\ starting\ point\ for\ tracking\r\n\ future\ game\ results.\r\n
+comment2.params=player
+comment2.target=void\ recordWin(java.lang.String)
+comment2.text=\r\n\ Records\ a\ win\ for\ the\ specified\ player.\r\n
+comment3.params=
+comment3.target=void\ recordDraw()
+comment3.text=\r\n\ Records\ a\ draw.\r\n
+comment4.params=playerXName\ playerOName
+comment4.target=java.lang.String\ getScoreString(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Returns\ a\ formatted\ score\ string.\r\n
+numComments=5
